@@ -10,7 +10,9 @@ Take these steps to get Hello World running in Local Mode in the Rig.
 2.  Open the `scripts` folder in the `developer-rig` folder.
 3.  Double-click the `run` file on Mac, `run.cmd` file on Windows.  The first time you run the script it will take a while since it will install and configure all of the dependencies.
 
-When you are done using the Developer Rig, you may either close all opened terminal windows or press `Ctrl-C` in all of them.
+When you are done using the Developer Rig, close all opened terminal windows or command prompts.
+
+There are detailed guides for [Mac](docs/MacLocal.md) and [Windows](docs/WindowsLocal.md) that describe what the above script does to get you from nothing to Hello World.
 
 See additional documentation on how to use the Developer Rig in Local Mode here: [Using Local Mode](#using-local-mode)
 
@@ -67,7 +69,7 @@ Extension output logs can be redirected to the [Rig Console](#rig-console), a De
 ## Getting Started in Online Mode
 If you're just getting started with Extensions and haven't gone through Extension Developer Onboarding, follow the steps at the top of the documentation for Local Mode.  Otherwise, the following guide will help you create your first Extension on Twitch and run it in the Developer Rig in Online Mode.
 
-There are detailed guides for [Mac](docs/Mac.md) and [Windows](docs/Windows.md) to get you from nothing to Hello World.
+There are detailed guides for [Mac](docs/MacOnline.md) and [Windows](docs/WindowsOnline.md) to get you from nothing to Hello World.
 
 #### Create an Extension on the Twitch Dev Site
 For each Extension to be tested online in the Developer Rig, a corresponding Extension needs to be created on the [Twitch Dev Site](https://dev.twitch.tv/dashboard). More detailed instructions to do this can be found [here](https://dev.twitch.tv/docs/extensions#creating-your-extension). Most fields are not relevant for the Developer Rig. The _Type of Extension_ is loaded into the Developer Rig, and is hence important. Similarly, the _Author Email_ must be correctly set and verified, before an [Extension secret](#developer-rig-configuration) can be created.

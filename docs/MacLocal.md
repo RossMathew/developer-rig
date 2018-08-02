@@ -1,7 +1,6 @@
 # Mac Quick-start to Hello World with Developer Rig in Local Mode
 
-Take these steps to get Hello World running in Local Mode in the Rig.
-This guide assumes you have either cloned the Rig from [GitHub](/twitchdev/developer-rig) or downloaded the Zip file from [Twitch](https://dev.twitch.tv).
+Follow these steps to get Hello World running in Local Mode in the Rig.  This guide assumes you have either cloned the Rig from [GitHub](/twitchdev/developer-rig) or downloaded the Zip file from [Twitch](https://dev.twitch.tv).
 
 The `./scripts/run` script will first run scripts to install and configure the Developer Rig before running it.  If the Developer Rig is already installed and configured, running these two scripts will have no effect.
 
@@ -57,7 +56,7 @@ In addition to running the above scripts, the `./scripts/run` script performs th
         *../panel.json* is the path to the file created in step 1.ii above
         **NOTE:**  this terminal window command will not exit.
 7.  Verify the Developer Rig is working.
-	1.  Sign in with your Twitch credentials.
+    1.  Sign in with your Twitch credentials.
     2.  Click the `+` button. The "Add a new view" panel will appear.
     3.  Select the `Broadcaster` viewer type and click `Save`. The Broadcaster view will appear.
     4.  Click `Yes, I would`. Verify the color changes and there is output to match that request in the second terminal window.
